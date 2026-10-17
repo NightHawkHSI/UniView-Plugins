@@ -12,7 +12,7 @@
       "author": "UniView",
       "description": "Fallout Tactics (Micro Forté): .bos archives (ZIP containers), .zar / .til images, .spr sprite animations, .ent entity definitions and the loose .bik movies.",
       "games": [
-        "Fallout Tactics"
+        "Fallout Tactics: Brotherhood of Steel"
       ],
       "files": [
         {
@@ -31,7 +31,7 @@
       "author": "Level7even Studios",
       "description": "Risk of Rain (2013, GameMaker: Studio 1.x): texture pages, sprites and animations, backgrounds and sounds from data.win (or embedded in the exe). Not encrypted.",
       "games": [
-        "Risk of Rain"
+        "Risk of Rain (2013)"
       ],
       "files": [
         {
@@ -92,9 +92,9 @@
         "Team Fortress 2",
         "Half-Life 2",
         "Portal",
-        "Counter-Strike Source",
+        "Counter-Strike: Source",
         "Left 4 Dead 2",
-        "GarrysMod"
+        "Garry's Mod"
       ],
       "files": [
         {
@@ -138,10 +138,10 @@
       "author": "UniView",
       "description": "Source 2 games (CS2, Dota 2, HL: Alyx, Deadlock...): VPK packs, .vmdl_c models with their materials, .vtex_c textures.",
       "games": [
-        "Counter-Strike Global Offensive",
-        "dota 2 beta",
+        "Counter-Strike 2",
+        "Dota 2",
         "Deadlock",
-        "Half-Life Alyx"
+        "Half-Life: Alyx"
       ],
       "files": [
         {

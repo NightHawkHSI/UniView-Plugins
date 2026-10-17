@@ -22,19 +22,20 @@ REPO = "NightHawkHSI/UniView-Plugins"
 BASE_URL = f"https://raw.githubusercontent.com/{REPO}/main/"
 INDEX_FORMAT = 1
 
-# Games each plugin was written for (shown in the Plugins tab and the README). Install folder names (what
-# steamapps/common/<this> is called) so UniView can match them to the games a user adds.
+# Games each plugin was written for, as shown in the Plugins tab. (UniView matches the games a user adds to a plugin
+# through its compatibility list, compat.json, which is keyed by install folder name.)
 GAMES = {
-    "source.py": ["Team Fortress 2", "Half-Life 2", "Portal", "Counter-Strike Source", "Left 4 Dead 2", "GarrysMod"],
-    "source2.py": ["Counter-Strike Global Offensive", "dota 2 beta", "Deadlock", "Half-Life Alyx"],
+    "source.py": ["Team Fortress 2", "Half-Life 2", "Portal", "Counter-Strike: Source", "Left 4 Dead 2",
+                  "Garry's Mod"],
+    "source2.py": ["Counter-Strike 2", "Dota 2", "Deadlock", "Half-Life: Alyx"],
     "unreal.py": ["Satisfactory", "Headliners", "Dead as Disco"],
     "terraria.py": ["Terraria", "Stardew Valley", "Celeste"],
     "spiralknights.py": ["Spiral Knights"],
     "wakfu.py": ["Wakfu"],
     "spore.py": ["Spore"],
     "fallout.py": ["Fallout", "Fallout 2"],
-    "FalloutTac.py": ["Fallout Tactics"],
-    "Ror.py": ["Risk of Rain"],
+    "FalloutTac.py": ["Fallout Tactics: Brotherhood of Steel"],
+    "Ror.py": ["Risk of Rain (2013)"],
     "SeriousSam2.py": ["Serious Sam 2"],
 }
 
