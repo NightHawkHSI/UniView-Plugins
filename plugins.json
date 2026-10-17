@@ -1,0 +1,304 @@
+{
+  "format": 1,
+  "repo": "NightHawkHSI/UniView-Plugins",
+  "base_url": "https://raw.githubusercontent.com/NightHawkHSI/UniView-Plugins/main/",
+  "plugins": [
+    {
+      "file": "FalloutTac.py",
+      "id": "fallout_tactics",
+      "name": "Fallout Tactics: Brotherhood of Steel",
+      "version": "1.0",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "Fallout Tactics (Micro Forté): .bos archives (ZIP containers), .zar / .til images, .spr sprite animations, .ent entity definitions and the loose .bik movies.",
+      "games": [
+        "Fallout Tactics"
+      ],
+      "files": [
+        {
+          "path": "FalloutTac.py",
+          "size": 23708,
+          "sha256": "5d1df8f917f8e2be82cf79b4d73b5c1ed8e1e8f96ff03c144c4b45788b6871e6"
+        }
+      ]
+    },
+    {
+      "file": "Ror.py",
+      "id": "ror",
+      "name": "Risk of Rain (2013)",
+      "version": "1.1",
+      "api_version": 1,
+      "author": "Level7even Studios",
+      "description": "Risk of Rain (2013, GameMaker: Studio 1.x): texture pages, sprites and animations, backgrounds and sounds from data.win (or embedded in the exe). Not encrypted.",
+      "games": [
+        "Risk of Rain"
+      ],
+      "files": [
+        {
+          "path": "Ror.py",
+          "size": 27984,
+          "sha256": "d687f13c29d22c5e9e3c4e4d8271ce8a755891c191f2b197c35ba6e75ec8fdf6"
+        }
+      ]
+    },
+    {
+      "file": "SeriousSam2.py",
+      "id": "serious",
+      "name": "Serious Sam 2",
+      "version": "1.1",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "Serious Sam 2 (Serious Engine 2): .gro archives (ZIP containers), .tex textures, .mdl models and loose files next to the game.",
+      "games": [
+        "Serious Sam 2"
+      ],
+      "files": [
+        {
+          "path": "SeriousSam2.py",
+          "size": 12941,
+          "sha256": "f1d3a82a24a0d98d41a0d58fa90d0a9436e1576170bd519877a64ca594021588"
+        }
+      ]
+    },
+    {
+      "file": "fallout.py",
+      "id": "fallout",
+      "name": "Fallout 1/2",
+      "version": "1.0",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "Fallout 1 and 2: .dat archives, FRM sprites, RIX images, ACM sounds (via vgmstream), MSG text.",
+      "games": [
+        "Fallout",
+        "Fallout 2"
+      ],
+      "files": [
+        {
+          "path": "fallout.py",
+          "size": 12661,
+          "sha256": "b4f947fe92d08de2f273b90b12d74c8380ccce3cca4dad46eca3a944a9aa26da"
+        }
+      ]
+    },
+    {
+      "file": "source.py",
+      "id": "source",
+      "name": "Source",
+      "version": "1.0",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "Source engine games (HL2, TF2, Portal, CS:S, L4D2, GMod...): VPK packs, .mdl models, .vtf textures, .vmt materials.",
+      "games": [
+        "Team Fortress 2",
+        "Half-Life 2",
+        "Portal",
+        "Counter-Strike Source",
+        "Left 4 Dead 2",
+        "GarrysMod"
+      ],
+      "files": [
+        {
+          "path": "source.py",
+          "size": 34060,
+          "sha256": "723d45bd532872cab9f1621579d5b629387b7cfea447e9c871f043692a86298d"
+        },
+        {
+          "path": "valve_formats/__init__.py",
+          "size": 127,
+          "sha256": "a7bf1f64158b7be110813f4988d9954c95140d038c354926359df2947d164adc"
+        },
+        {
+          "path": "valve_formats/bsp.py",
+          "size": 12856,
+          "sha256": "89f02653891daa895af823069aceb251b31f51219f409be75e9538826b1da080"
+        },
+        {
+          "path": "valve_formats/kv3.py",
+          "size": 9652,
+          "sha256": "7aee7dea7d7e9e59b4cd812b8f62ee697c3ca257558e35d1c2444f4c9de61dcd"
+        },
+        {
+          "path": "valve_formats/meshopt.py",
+          "size": 10140,
+          "sha256": "5a25d6f203b20d3a47584157fb51747521a7e9d0e6cc520b6f2a78e24a8d58b8"
+        },
+        {
+          "path": "valve_formats/vpk.py",
+          "size": 6497,
+          "sha256": "8bbf541a05a07dda1b1b1ff935320d687097a998c5196bd3838858689fdaed73"
+        }
+      ]
+    },
+    {
+      "file": "source2.py",
+      "id": "source2",
+      "name": "Source 2",
+      "version": "1.0",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "Source 2 games (CS2, Dota 2, HL: Alyx, Deadlock...): VPK packs, .vmdl_c models with their materials, .vtex_c textures.",
+      "games": [
+        "Counter-Strike Global Offensive",
+        "dota 2 beta",
+        "Deadlock",
+        "Half-Life Alyx"
+      ],
+      "files": [
+        {
+          "path": "source2.py",
+          "size": 35838,
+          "sha256": "0fe07471ca902dac4f3f455f740e48f20419923990167fed0752e0c42097009a"
+        },
+        {
+          "path": "valve_formats/__init__.py",
+          "size": 127,
+          "sha256": "a7bf1f64158b7be110813f4988d9954c95140d038c354926359df2947d164adc"
+        },
+        {
+          "path": "valve_formats/bsp.py",
+          "size": 12856,
+          "sha256": "89f02653891daa895af823069aceb251b31f51219f409be75e9538826b1da080"
+        },
+        {
+          "path": "valve_formats/kv3.py",
+          "size": 9652,
+          "sha256": "7aee7dea7d7e9e59b4cd812b8f62ee697c3ca257558e35d1c2444f4c9de61dcd"
+        },
+        {
+          "path": "valve_formats/meshopt.py",
+          "size": 10140,
+          "sha256": "5a25d6f203b20d3a47584157fb51747521a7e9d0e6cc520b6f2a78e24a8d58b8"
+        },
+        {
+          "path": "valve_formats/vpk.py",
+          "size": 6497,
+          "sha256": "8bbf541a05a07dda1b1b1ff935320d687097a998c5196bd3838858689fdaed73"
+        }
+      ]
+    },
+    {
+      "file": "spiralknights.py",
+      "id": "spiralknights",
+      "name": "Spiral Knights (Clyde)",
+      "version": "1.0",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "Spiral Knights: models, textures, sounds and music from rsrc/*.jar (Three Rings' Clyde engine).",
+      "games": [
+        "Spiral Knights"
+      ],
+      "files": [
+        {
+          "path": "spiralknights.py",
+          "size": 44149,
+          "sha256": "fb6adaa95d7b744bd74291c125c4d5dbe2f3683e70c822dc417ade747ca457d3"
+        }
+      ]
+    },
+    {
+      "file": "spore.py",
+      "id": "spore",
+      "name": "Spore (Maxis)",
+      "version": "1.0",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "Spore's DBPF .package archives: RenderWare 4 models and textures, .raster/.png images, property lists as text, locale texts and EA layer 3 sounds.",
+      "games": [
+        "Spore"
+      ],
+      "files": [
+        {
+          "path": "spore.py",
+          "size": 28942,
+          "sha256": "aeeb7270058dc0779746b401ed65bd93b4abb0fa0fd0c4b89a83b4574e591b01"
+        }
+      ]
+    },
+    {
+      "file": "terraria.py",
+      "id": "xna",
+      "name": "Terraria / XNA / FNA",
+      "version": "1.0",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "XNA and FNA games (Terraria, Stardew Valley, Celeste...): .xnb textures, sprite-font sheets and sounds, XACT music banks (.xwb).",
+      "games": [
+        "Terraria",
+        "Stardew Valley",
+        "Celeste"
+      ],
+      "files": [
+        {
+          "path": "terraria.py",
+          "size": 108465,
+          "sha256": "789fbad3a64d684f8b11ea1ca95138e6a382ff5c280cc9d03b7c40fdac1a421b"
+        }
+      ]
+    },
+    {
+      "file": "unreal.py",
+      "id": "unreal",
+      "name": "Unreal",
+      "version": "2.0",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "Unreal Engine 4/5 games: .pak and IoStore (.utoc/.ucas) containers, encrypted ones with the game's AES key; textures (incl. virtual textures), static and skeletal meshes.",
+      "games": [
+        "Satisfactory",
+        "Headliners",
+        "Dead as Disco"
+      ],
+      "files": [
+        {
+          "path": "unreal.py",
+          "size": 26334,
+          "sha256": "0c3ca51697bc01ff50362ec1c9336a9215bf2c6c7c041d74e419084b8a98fb3e"
+        },
+        {
+          "path": "unreal_formats/__init__.py",
+          "size": 99,
+          "sha256": "f24689a26a4d2f513fdc91fde35f75b0ef171cb1f6d0ef60424569fb35fe13cc"
+        },
+        {
+          "path": "unreal_formats/aes.py",
+          "size": 3482,
+          "sha256": "cb2ec98b3ea9cdbe0f02616359aeb074e78cfd0a694bd6869a626aac65bedb99"
+        },
+        {
+          "path": "unreal_formats/iostore.py",
+          "size": 8695,
+          "sha256": "d17d70182673aaad43c515cb3569d647f0b267d0bb6df00a420119ef482feeee"
+        },
+        {
+          "path": "unreal_formats/ue_package.py",
+          "size": 31988,
+          "sha256": "ade6dc1d809d3c753a26dd71a28257b7dd5ed83c0e0bcb8881368add7ebdc355"
+        },
+        {
+          "path": "unreal_formats/ue_pak.py",
+          "size": 15620,
+          "sha256": "58c91f32bd86e1e9aac7c416368c4824729a1762509b86e835ff30a0202f31c1"
+        }
+      ]
+    },
+    {
+      "file": "wakfu.py",
+      "id": "wakfu",
+      "name": "Wakfu (Ankama)",
+      "version": "1.2",
+      "api_version": 1,
+      "author": "UniView",
+      "description": "Wakfu: animations, map graphics, UI images (incl. DDS), sounds and texts from contents/*.jar and the .pk packs.",
+      "games": [
+        "Wakfu"
+      ],
+      "files": [
+        {
+          "path": "wakfu.py",
+          "size": 49465,
+          "sha256": "b9c588ddb0451a83ae4c36b49fa7ebefb3d801ea22e12ba9ab5b0bc9bccd8565"
+        }
+      ]
+    }
+  ]
+}

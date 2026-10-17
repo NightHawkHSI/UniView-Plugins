@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+_removed/
+# Anything a user installed by hand next to these (the repo is also UniView's dev plugins folder)
+*.dll
