@@ -1,5 +1,4 @@
 [![Views](https://hits.sh/github.com/NightHawkHSI/UniView-Plugins.svg?label=views&color=4c1)](https://hits.sh/github.com/NightHawkHSI/UniView-Plugins/)
-[![Downloads](https://img.shields.io/github/downloads/NightHawkHSI/UniView-Plugins/total?label=downloads&color=blue)](https://github.com/NightHawkHSI/UniView-Plugins/releases)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://github.com/NightHawkHSI/UniView#run-from-source)
 [![Stars](https://img.shields.io/github/stars/NightHawkHSI/UniView-Plugins?style=flat&color=yellow)](https://github.com/NightHawkHSI/UniView-Plugins/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/NightHawkHSI/UniView-Plugins)](https://github.com/NightHawkHSI/UniView-Plugins/commits/main)
